@@ -1,0 +1,10 @@
+name: brand
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  complete:
+    uses: go-fleettools/fleettools/.github/workflows/brand-complete.yml@main
